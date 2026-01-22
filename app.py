@@ -65,7 +65,7 @@ iface = gr.Interface(
         gr.Number(label="Age", value=30),
     ],
     outputs=gr.Textbox(label="Result"),
-    title="🩺 Diabetes Prediction System",
+    title="Diabetes Prediction System",
     description="This app predicts whether a patient is diabetic using a pre-trained Machine Learning pipeline (scikit-learn)."
 )
 
